@@ -8,7 +8,7 @@ class Game:
         self.screen = pygame.display.set_mode((640, 480))
         self.clock = pygame.time.Clock()
 
-        self.original_img = pygame.image.load('cloud_1.png')
+        self.original_img = pygame.image.load('D:\Wayne State\Winter 2024\Industrial Programming - Python (ET 5600)\ET5600Project\Application\cloud_1.png')
         self.image = pygame.transform.scale(self.original_img, (50, 50))
         self.image.set_colorkey((0, 0, 0))
 
